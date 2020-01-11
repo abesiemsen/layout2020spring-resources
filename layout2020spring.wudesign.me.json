@@ -5,61 +5,155 @@
     "name" : "Layout Systems",
     "meetingTimes" : [
       {
-        "days" : "Mon/Wed",
-        "time" : "6:00pm–9:00pm",
+        "days" : "Tues/Thurs",
+        "time" : "6:00pm–8:50pm",
         "location" : "Steinberg 213",
         "purpose" : "Class"
       }
     ],
     "instructors" : [
-      { "slug" : "asiemsen",      "lastName" : "Siemsen",       "firstName" : "Abram",     "basePath" : "https://abesiemsen.github.io/layout2019spring/", "email" : "asiemsen@wustl.edu" }
+      {
+        "slug" : "asiemsen",
+        "lastName" : "Siemsen",
+        "firstName" : "Abram",
+        "basePath" : "https://abesiemsen.github.io/layout2020spring/",
+        "email" : "asiemsen@wustl.edu"
+      }
     ],
-    "syllabus" : "https://gist.githubusercontent.com/abesiemsen/fe868c14c97127c97fb8feb6ad689b74/raw/layout2019spring.wudesign.me.syllabus.snippet",
+    "syllabus" : "https://gist.githubusercontent.com/abesiemsen/a908f2fcbe5cc49a74c163cde50ce0fe/raw/layout2020spring.wudesign.me.syllabus.snippet",
     "students" : [
-      { "status": "enrolled", "slug": "kchen",    "lastName": "Chen",     "firstName": "Kuu",       "basePath": "https://kuuchen.github.io/layout2019spring/" },
-      { "status": "enrolled", "slug": "yjeong",   "lastName": "Jeong",    "firstName": "Yena",      "basePath": "https://tygersong.github.io/layout2019spring/" },
-      { "status": "enrolled", "slug": "lkang",    "lastName": "Kang",     "firstName": "Lianne",    "basePath": "https://liannekang.github.io/layout2019spring/" },
-      { "status": "waitlist", "slug": "mlange",   "lastName": "Lange",    "firstName": "Michaela",  "basePath": "https://mlange17.github.io/layout2019spring/" },
-      { "status": "enrolled", "slug": "blin",     "lastName": "Lin",      "firstName": "Brian",     "basePath": "https://brianlin97.github.io/layout2019spring/" },
-      { "status": "enrolled", "slug": "asze",     "lastName": "Sze",      "firstName": "Arianna",   "basePath": "https://asze.github.io/layout2019spring/" },
-      { "status": "enrolled", "slug": "dwang",    "lastName": "Wang",     "firstName": "Derrek",    "basePath": "https://dwang.github.io/layout2019spring/" },
-      { "status": "enrolled", "slug": "bwilburn", "lastName": "Wilburn",  "firstName": "Brandon",   "basePath": "https://brandon-wilburn.github.io/layout2019spring/" },
-      { "status": "waitlist", "slug": "cwright",  "lastName": "Wright",   "firstName": "Chloe",     "basePath": "https://cwright.github.io/layout2019spring/" },
-      { "status": "enrolled", "slug": "bzenebe",  "lastName": "Zenebe",   "firstName": "Bersabeh",  "basePath": "https://bzenebe.github.io/layout2019spring/" }
+      {
+        "slug": "AmieDeng",
+        "lastName": "Deng",
+        "firstName": "Amie",
+        "status": "enrolled",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "BrandonWilburn",
+        "lastName": "Wilburn",
+        "firstName": "Brandon",
+        "status": "enrolled",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "ChristinaPan",
+        "lastName": "Pan",
+        "firstName": "Christina",
+        "status": "enrolled",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "DongyoonLee",
+        "lastName": "Lee",
+        "firstName": "Dongyoon",
+        "status": "enrolled",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "GiorgioGuttilla",
+        "lastName": "Guttilla",
+        "firstName": "Giorgio",
+        "status": "waitlist",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "JeffersonDuan",
+        "lastName": "Duan",
+        "firstName": "Jefferson",
+        "status": "enrolled",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "JeffSu",
+        "lastName": "Su",
+        "firstName": "Jeff",
+        "status": "waitlist",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "KimberlyClark",
+        "lastName": "Clark",
+        "firstName": "Kimberly",
+        "status": "waitlist",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "MarissaKalkar",
+        "lastName": "Kalkar",
+        "firstName": "Marissa",
+        "status": "waitlist",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "MilesLee",
+        "lastName": "Lee",
+        "firstName": "Miles",
+        "status": "enrolled",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "MinLee",
+        "lastName": "Lee",
+        "firstName": "Min",
+        "status": "enrolled",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "PTKKyaw",
+        "lastName": "Kyaw",
+        "firstName": "PTK",
+        "status": "waitlist",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "SarahRhee",
+        "lastName": "Rhee",
+        "firstName": "Sarah",
+        "status": "waitlist",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      },
+      {
+        "slug": "TrevorMcKee",
+        "lastName": "McKee",
+        "firstName": "Trevor",
+        "status": "enrolled",
+        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+      }
     ],
     "dropped" : [
     ],
     "sessions" : [
-      { "number" :  1, "date" : "2019-01-14 06:00" },
-      { "number" :  2, "date" : "2019-01-16 06:00" },
-      {                "date" : "2019-01-21 06:00", "holiday" : "MLK day"  },
-      { "number" :  3, "date" : "2019-01-23 06:00" },
-      { "number" :  4, "date" : "2019-01-28 06:00" },
-      { "number" :  5, "date" : "2019-01-30 06:00" },
-      { "number" :  6, "date" : "2019-02-04 06:00" },
-      { "number" :  7, "date" : "2019-02-06 06:00" },
-      { "number" :  8, "date" : "2019-02-11 06:00" },
-      { "number" :  9, "date" : "2019-02-13 06:00" },
-      { "number" : 10, "date" : "2019-02-18 06:00" },
-      { "number" : 11, "date" : "2019-02-20 06:00" },
-      { "number" : 12, "date" : "2019-02-25 06:00" },
-      { "number" : 13, "date" : "2019-02-27 06:00" },
-      { "number" : 14, "date" : "2019-03-04 06:00" },
-      { "number" : 15, "date" : "2019-03-06 06:00" },
-      {                "date" : "2019-03-11 06:00", "holiday" : "Spring Break"  },
-      {                "date" : "2019-03-13 06:00", "holiday" : "Spring Break"  },
-      { "number" : 16, "date" : "2019-03-18 06:00" },
-      { "number" : 17, "date" : "2019-03-20 06:00" },
-      { "number" : 18, "date" : "2019-03-25 06:00" },
-      { "number" : 19, "date" : "2019-04-27 06:00" },
-      { "number" : 20, "date" : "2019-04-01 06:00" },
-      { "number" : 21, "date" : "2019-04-03 06:00" },
-      { "number" : 22, "date" : "2019-04-08 06:00" },
-      { "number" : 23, "date" : "2019-04-10 06:00" },
-      { "number" : 24, "date" : "2019-04-15 06:00" },
-      { "number" : 25, "date" : "2019-04-17 06:00" },
-      { "number" : 26, "date" : "2019-04-22 06:00" },
-      { "number" : 27, "date" : "2019-04-24 06:00" }
+      { "number" :  1, "date" : "2020-01-14 06:00" },
+      { "number" :  2, "date" : "2020-01-16 06:00" },
+      { "number" :  3, "date" : "2020-01-21 06:00" },
+      { "number" :  4, "date" : "2020-01-23 06:00" },
+      { "number" :  5, "date" : "2020-01-28 06:00" },
+      { "number" :  6, "date" : "2020-01-30 06:00" },
+      { "number" :  7, "date" : "2020-02-04 06:00" },
+      { "number" :  8, "date" : "2020-02-06 06:00" },
+      { "number" :  9, "date" : "2020-02-11 06:00" },
+      { "number" : 10, "date" : "2020-02-13 06:00" },
+      { "number" : 11, "date" : "2020-02-18 06:00" },
+      { "number" : 12, "date" : "2020-02-20 06:00" },
+      { "number" : 13, "date" : "2020-02-25 06:00" },
+      { "number" : 14, "date" : "2020-02-27 06:00" },
+      { "number" : 15, "date" : "2020-03-03 06:00" },
+      { "number" : 16, "date" : "2020-03-05 06:00" },
+      {                "date" : "2020-03-10 06:00", "holiday" : "Spring Break"  },
+      {                "date" : "2020-03-12 06:00", "holiday" : "Spring Break"  },
+      { "number" : 17, "date" : "2020-03-17 06:00" },
+      { "number" : 18, "date" : "2020-03-19 06:00" },
+      { "number" : 19, "date" : "2020-03-24 06:00" },
+      { "number" : 20, "date" : "2020-03-26 06:00" },
+      { "number" : 21, "date" : "2020-03-31 06:00" },
+      { "number" : 22, "date" : "2020-04-02 06:00" },
+      { "number" : 23, "date" : "2020-04-07 06:00" },
+      { "number" : 24, "date" : "2020-04-09 06:00" },
+      { "number" : 25, "date" : "2020-04-14 06:00" },
+      { "number" : 26, "date" : "2020-04-16 06:00" },
+      { "number" : 27, "date" : "2020-04-21 06:00" },
+      { "number" : 28, "date" : "2020-04-23 06:00" }
     ],
     "projects" : [
       {
