@@ -20,7 +20,7 @@
         "email" : "asiemsen@wustl.edu"
       }
     ],
-    "syllabus" : "https://raw.githubusercontent.com/abesiemsen/layout2020spring-resources/master/layout2020spring.wudesign.me.syllabus.snippet",
+    "syllabus" : "syllabus.snippet",
     "students" : [
       {
         "slug": "AmieDeng",
