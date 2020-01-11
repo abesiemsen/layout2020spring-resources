@@ -1,7 +1,10 @@
 {
   "course" : {
+    "department": "Communication Design",
     "slug" : "F10-ART-326H",
-    "context" : "Interaction Design",
+    "section": "01",
+    "context" : "Special Topics: Interaction Design",
+    "semester" : "Spring 2020",
     "name" : "Layout Systems",
     "meetingTimes" : [
       {
@@ -17,7 +20,8 @@
         "lastName" : "Siemsen",
         "firstName" : "Abram",
         "basePath" : "https://abesiemsen.github.io/layout2020spring/",
-        "email" : "asiemsen@wustl.edu"
+        "email" : "asiemsen@wustl.edu",
+        "phone" : "314-323-0911"
       }
     ],
     "syllabus" : "syllabus.snippet",
