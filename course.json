@@ -1,31 +1,31 @@
 {
-  "course" : {
+  "course": {
     "department": "Communication Design",
-    "slug" : "F10-ART-326H",
+    "slug": "F10-ART-326H",
     "section": "01",
-    "context" : "Special Topics: Interaction Design",
-    "semester" : "Spring 2020",
-    "name" : "Layout Systems",
-    "meetingTimes" : [
+    "context": "Special Topics: Interaction Design",
+    "semester": "Spring 2020",
+    "name": "Layout Systems",
+    "meetingTimes": [
       {
-        "days" : "Tues/Thurs",
-        "time" : "6:00pm–8:50pm",
-        "location" : "Steinberg 213",
-        "purpose" : "Class"
+        "days": "Tues/Thurs",
+        "time": "6:00pm–8:50pm",
+        "location": "Steinberg 213",
+        "purpose": "Class"
       }
     ],
-    "instructors" : [
+    "instructors": [
       {
-        "slug" : "asiemsen",
-        "lastName" : "Siemsen",
-        "firstName" : "Abram",
-        "basePath" : "https://abesiemsen.github.io/layout2020spring/",
-        "email" : "asiemsen@wustl.edu",
-        "phone" : "314-323-0911"
+        "slug": "asiemsen",
+        "lastName": "Siemsen",
+        "firstName": "Abram",
+        "basePath": "https://abesiemsen.github.io/layout2020spring/",
+        "email": "asiemsen@wustl.edu",
+        "phone": "314-323-0911"
       }
     ],
-    "syllabus" : "syllabus.snippet",
-    "students" : [
+    "syllabus": "syllabus.snippet",
+    "students": [
       {
         "slug": "AmieDeng",
         "lastName": "Deng",
@@ -125,79 +125,195 @@
         "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
       }
     ],
-    "dropped" : [
-    ],
-    "sessions" : [
-      { "number" :  1, "date" : "2020-01-14 06:00" },
-      { "number" :  2, "date" : "2020-01-16 06:00" },
-      { "number" :  3, "date" : "2020-01-21 06:00" },
-      { "number" :  4, "date" : "2020-01-23 06:00" },
-      { "number" :  5, "date" : "2020-01-28 06:00" },
-      { "number" :  6, "date" : "2020-01-30 06:00" },
-      { "number" :  7, "date" : "2020-02-04 06:00" },
-      { "number" :  8, "date" : "2020-02-06 06:00" },
-      { "number" :  9, "date" : "2020-02-11 06:00" },
-      { "number" : 10, "date" : "2020-02-13 06:00" },
-      { "number" : 11, "date" : "2020-02-18 06:00" },
-      { "number" : 12, "date" : "2020-02-20 06:00" },
-      { "number" : 13, "date" : "2020-02-25 06:00" },
-      { "number" : 14, "date" : "2020-02-27 06:00" },
-      { "number" : 15, "date" : "2020-03-03 06:00" },
-      { "number" : 16, "date" : "2020-03-05 06:00" },
-      {                "date" : "2020-03-10 06:00", "holiday" : "Spring Break"  },
-      {                "date" : "2020-03-12 06:00", "holiday" : "Spring Break"  },
-      { "number" : 17, "date" : "2020-03-17 06:00" },
-      { "number" : 18, "date" : "2020-03-19 06:00" },
-      { "number" : 19, "date" : "2020-03-24 06:00" },
-      { "number" : 20, "date" : "2020-03-26 06:00" },
-      { "number" : 21, "date" : "2020-03-31 06:00" },
-      { "number" : 22, "date" : "2020-04-02 06:00" },
-      { "number" : 23, "date" : "2020-04-07 06:00" },
-      { "number" : 24, "date" : "2020-04-09 06:00" },
-      { "number" : 25, "date" : "2020-04-14 06:00" },
-      { "number" : 26, "date" : "2020-04-16 06:00" },
-      { "number" : 27, "date" : "2020-04-21 06:00" },
-      { "number" : 28, "date" : "2020-04-23 06:00" }
-    ],
-    "projects" : [
+    "dropped": [],
+    "sessions": [
       {
-        "slug" : "single-column-layout",
-        "name" : "Single column layout",
-        "start" : "2018-01-14",
-        "end" : "2018-01-16",
-        "description" : "Understanding how to style a single column of content is a fundamental skill upon which more complex layouts are based. This project aims to apply and refine your ability to control basic content elements within a single column.",
-        "deliverables" : [
+        "number": 1,
+        "date": "2020-01-14 06:00"
+      },
+      {
+        "number": 2,
+        "date": "2020-01-16 06:00"
+      },
+      {
+        "number": 3,
+        "date": "2020-01-21 06:00"
+      },
+      {
+        "number": 4,
+        "date": "2020-01-23 06:00"
+      },
+      {
+        "number": 5,
+        "date": "2020-01-28 06:00"
+      },
+      {
+        "number": 6,
+        "date": "2020-01-30 06:00"
+      },
+      {
+        "number": 7,
+        "date": "2020-02-04 06:00"
+      },
+      {
+        "number": 8,
+        "date": "2020-02-06 06:00"
+      },
+      {
+        "number": 9,
+        "date": "2020-02-11 06:00"
+      },
+      {
+        "number": 10,
+        "date": "2020-02-13 06:00"
+      },
+      {
+        "number": 11,
+        "date": "2020-02-18 06:00"
+      },
+      {
+        "number": 12,
+        "date": "2020-02-20 06:00"
+      },
+      {
+        "number": 13,
+        "date": "2020-02-25 06:00"
+      },
+      {
+        "number": 14,
+        "date": "2020-02-27 06:00"
+      },
+      {
+        "number": 15,
+        "date": "2020-03-03 06:00"
+      },
+      {
+        "number": 16,
+        "date": "2020-03-05 06:00"
+      },
+      {
+        "date": "2020-03-10 06:00",
+        "holiday": "Spring Break"
+      },
+      {
+        "date": "2020-03-12 06:00",
+        "holiday": "Spring Break"
+      },
+      {
+        "number": 17,
+        "date": "2020-03-17 06:00"
+      },
+      {
+        "number": 18,
+        "date": "2020-03-19 06:00"
+      },
+      {
+        "number": 19,
+        "date": "2020-03-24 06:00"
+      },
+      {
+        "number": 20,
+        "date": "2020-03-26 06:00"
+      },
+      {
+        "number": 21,
+        "date": "2020-03-31 06:00"
+      },
+      {
+        "number": 22,
+        "date": "2020-04-02 06:00"
+      },
+      {
+        "number": 23,
+        "date": "2020-04-07 06:00"
+      },
+      {
+        "number": 24,
+        "date": "2020-04-09 06:00"
+      },
+      {
+        "number": 25,
+        "date": "2020-04-14 06:00"
+      },
+      {
+        "number": 26,
+        "date": "2020-04-16 06:00"
+      },
+      {
+        "number": 27,
+        "date": "2020-04-21 06:00"
+      },
+      {
+        "number": 28,
+        "date": "2020-04-23 06:00"
+      }
+    ],
+    "projects": [
+      {
+        "slug": "project-slug-goes-here",
+        "name": "Project Name Goes Here",
+        "hidden": true,
+        "start": "2020-01-01",
+        "end": "2020-01-01",
+        "description": "Project description html goes here.",
+        "deliverables": [
           {
-            "slug" : "mlk-content-styling",
-            "name" : "MLK content styling",
-            "assigned" : "2019-01-14",
-            "due" : "2019-01-16",
-            "file" : "index.html",
-            "description" : "<p>Create a stylesheet for the content below, aimed at overriding the browser default styles with your own instructions that improve readability, clarity and aesthetic appeal. Focus on creating a system, rather than creating 'one-off' instructions for one element at a time.</p>",
-            "instructions" : "<p>Copy the provided source text as your starting point. Link your stylesheet, and create style rules based solely on tags, not on id or class names.</p>",
-            "references" : [
+            "slug": "deliverable-slug-goes-here",
+            "name": "Deliverable Name Goes Here",
+            "hidden": true,
+            "assigned": "2020-01-01",
+            "due": "2020-02-01",
+            "file": "index.html",
+            "description": "Deliverable description html goes here.",
+            "instructions": "Deliverable instructions html goes here.",
+            "references": [
               {
-                "name" : "Raw html content",
-                "link" : "https://gist.githubusercontent.com/abesiemsen/fe868c14c97127c97fb8feb6ad689b74/raw/mlk.html",
-                "description" : "Use this text as the html source."
+                "name": "Reference Name Goes Here",
+                "link": "reference/url/goes/here",
+                "description": "Describe the reference here."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "single-column-layout",
+        "name": "Single column layout",
+        "hidden": true,
+        "start": "2018-01-14",
+        "end": "2018-01-16",
+        "description": "Understanding how to style a single column of content is a fundamental skill upon which more complex layouts are based. This project aims to apply and refine your ability to control basic content elements within a single column.",
+        "deliverables": [
+          {
+            "slug": "mlk-content-styling",
+            "name": "MLK content styling",
+            "hidden": true,
+            "assigned": "2019-01-14",
+            "due": "2019-01-16",
+            "file": "index.html",
+            "description": "<p>Create a stylesheet for the content below, aimed at overriding the browser default styles with your own instructions that improve readability, clarity and aesthetic appeal. Focus on creating a system, rather than creating 'one-off' instructions for one element at a time.</p>",
+            "instructions": "<p>Copy the provided source text as your starting point. Link your stylesheet, and create style rules based solely on tags, not on id or class names.</p>",
+            "references": [
+              {
+                "name": "Raw html content",
+                "link": "https://gist.githubusercontent.com/abesiemsen/fe868c14c97127c97fb8feb6ad689b74/raw/mlk.html",
+                "description": "Use this text as the html source."
               }
             ]
           },
           {
-            "slug" : "mlk-navigation-styling",
-            "name" : "MLK navigation styling",
-            "assigned" : "2019-01-16",
-            "due" : "2019-01-23",
-            "file" : "index.html",
-            "description" : "<p>At mobile sizes, the navigation section of the MLK page can be considered it's own single-column layout, in the sense that it's just a single 'stack' of elements that read from top to bottom. Clearly, however, it's a different kind of column than the main content column. Style the navigation as if it is what you would see after clicking a typical 'hamburger menu' button on a mobile site or app. As you did with the content itself, think of the style-rules as a system you are creating, rather than one-off instructions for individual parts of the nav. Also, consider how you will organize your stylesheet to clearly separate your nav styles from your content styles.</p><p>At larger page-widths, what worked for mobile will likely start to feel awkward. What approach to styling the navigation makes sense at larger widths? After you have mobile styles working, create one or more media queries that apply new/additional rules to the nav on larger screens. Our goal is to create navigation that makes sense visually regardless of device-context.</p>",
-            "instructions" : "<p>Add navigation styles to your stylesheet. Treat the navigation as an overlay element, covering the content rather than just coming before the content in the page flow.</p><p>Don't worry about making anything functional (showing/hiding the nav, collapsing sections, etc), just focus on adding styles that make the navigation look like you'd expect from a mobile navigation menu, and then ultimately from desktop navigation.</p>",
-            "references" : [
-            ]
+            "slug": "mlk-navigation-styling",
+            "name": "MLK navigation styling",
+            "hidden": true,
+            "assigned": "2019-01-16",
+            "due": "2019-01-23",
+            "file": "index.html",
+            "description": "<p>At mobile sizes, the navigation section of the MLK page can be considered it's own single-column layout, in the sense that it's just a single 'stack' of elements that read from top to bottom. Clearly, however, it's a different kind of column than the main content column. Style the navigation as if it is what you would see after clicking a typical 'hamburger menu' button on a mobile site or app. As you did with the content itself, think of the style-rules as a system you are creating, rather than one-off instructions for individual parts of the nav. Also, consider how you will organize your stylesheet to clearly separate your nav styles from your content styles.</p><p>At larger page-widths, what worked for mobile will likely start to feel awkward. What approach to styling the navigation makes sense at larger widths? After you have mobile styles working, create one or more media queries that apply new/additional rules to the nav on larger screens. Our goal is to create navigation that makes sense visually regardless of device-context.</p>",
+            "instructions": "<p>Add navigation styles to your stylesheet. Treat the navigation as an overlay element, covering the content rather than just coming before the content in the page flow.</p><p>Don't worry about making anything functional (showing/hiding the nav, collapsing sections, etc), just focus on adding styles that make the navigation look like you'd expect from a mobile navigation menu, and then ultimately from desktop navigation.</p>",
+            "references": []
           }
         ]
       }
     ]
-	}
+  }
 }
-
-  
