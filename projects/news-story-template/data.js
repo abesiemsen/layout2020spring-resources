@@ -25,12 +25,26 @@ var app = new Vue({
       },
       related: [
         {
+          slug: '',
+          url: 'https://google.com',
           title: 'Another News Story',
-          url: 'https://google.com'
+          subtitle: '',
+          teaser: '',
+          image: {
+            url: '',
+            caption: ''
+          }
         },
         {
+          slug: '',
+          url: 'https://google.com',
           title: 'A Third Story',
-          url: 'https://google.com'
+          subtitle: '',
+          teaser: '',
+          image: {
+            url: '',
+            caption: ''
+          }
 
         }
       ]
