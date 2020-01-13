@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <style>[v-cloak] { display: none;}</style>
+  </head>
+  <body>
+    <div id="news-template" v-cloak>
+      {{ story.title }}
+      {{ story.subtitle }}
+      {{ story.teaser }}
+      {{ story.date }}
+      <span v-for="tag in story.tags">{{ tag }}</span>
+      <span v-html="story.content"></span>
+      <img v-bind:src="story.image.url">
+      {{ story.image.caption }}
+      {{ story.author.name }}
+      {{ story.author.twitter.handle }}
+      <img v-bind:src="story.author.image.url">
+      <ul>
+        <li v-for="related in story.related">
+          <a v-bind:href="related.url">{{ related.title }}</a>
+        </li>
+      </ul>
+      <pre>{{ story | json }}</pre>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://raw.githubusercontent.com/abesiemsen/layout2020spring-resources/master/data.js"></script>
+  </body>
+</html>
