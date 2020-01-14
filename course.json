@@ -319,7 +319,7 @@
         "hidden": false,
         "start": "2020-01-14",
         "end": "2020-02-06",
-        "description": "<p>You will create a template to display news stories. The stories themselves will be dynamic content &mdash; you will not have direct control over their content. However, you will design, style, and build the template used to display them.</p><p>This template will be responsive (work visually at any device or browser width).</p><p>The template must accomodate:</p><ul><li>Title</li><li>Subtitle</li><li>Teaser text</li><li>Publish date</li><li>Tags</li><li>Primary image w/caption</li><li>Author name, image, twitter-handle</li><li>Body copy</li><li>Embedded content: title tags, lists, images and figures with captions, pull-quotes</li><li>Related story links w/ title, subtitle, teaser, image</li></ul><h3>Learning Objectives</h3><ul><li>Manage single-column responsive content</li><li>Learn about and build templates for dynamic data</li><li>Gain experience with a templating syntax</li><li>Define style systems, not one-off instructions</li><li>Refine aesthetic decision-making for screens</li><li>Design in the browser</li></ul>",
+        "description": "<p>You will create a template to display news stories. The stories themselves will be dynamic content &mdash; you will not have direct control over their content. However, you will design, style, and build the template used to display them.</p><p>This template will be responsive (work visually at any device or browser width).</p><p>The template must accomodate:</p><ul><li>Title</li><li>Subtitle</li><li>Teaser text</li><li>Publish date</li><li>Tags</li><li>Primary image w/caption</li><li>Source name and url</li><li>Body copy</li><li>Embedded content: title tags, lists, images and figures with captions, pull-quotes</li><li>Related story links w/ title, subtitle, teaser, image</li></ul><h3>Learning Objectives</h3><ul><li>Manage single-column responsive content</li><li>Learn about and build templates for dynamic data</li><li>Gain experience with a templating syntax</li><li>Define style systems, not one-off instructions</li><li>Refine aesthetic decision-making for screens</li><li>Design in the browser</li></ul>",
         "deliverables": [
           {
             "slug": "starter-file",
@@ -337,6 +337,16 @@
                 "description": "This is the starting point for your own template."
               }
             ]
+          },
+          {
+            "slug": "primary-text-layout",
+            "name": "Primary Text Layout",
+            "hidden": false,
+            "assigned": "2020-01-14",
+            "due": "2020-01-16",
+            "file": "index.html",
+            "description": "<p>We'll take an iterative approach to design, and we'll design in the browser. We'll start by focusing on primary text content only: Title, Subtitle, Date, Teaser, Content. Stylistically, your primary objective is to select and apply typeface(s), and make basic text layout choices: sizes, whitespace management, line-length, margin/padding, etc.</p>",
+            "instructions": "<p>Add structure and CSS to apply your style choices. Consider uploading more than one version, using <code>deliverable.json</code>.</p>"
           }
         ]
       },
