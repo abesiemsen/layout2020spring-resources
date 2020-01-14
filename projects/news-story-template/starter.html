@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>News Story Template</title>
-    <style>[v-cloak] { display: none;}</style>
+    <style>[v-cloak] { display: none; }</style>
+    <style>img { max-width: 100%; }</style>
   </head>
   <body>
     <div id="news-template" v-cloak>
@@ -10,18 +11,21 @@
       <!-- Main Story -->
       {{ story.title }}
       {{ story.subtitle }}
-      {{ story.teaser }}
       {{ story.date }}
       <span v-for="tag in story.tags">{{ tag }}</span>
       <img v-bind:src="story.image.url">
       {{ story.image.caption }}
       <a v-bind:href="story.source.url">{{ story.source.name }}</a>
+      <span v-html="story.teaser"></span>
       <span v-html="story.content"></span>
 
       <!-- Related Stories-->
       <ul>
         <li v-for="relatedStory in relatedStories">
-          <div v-on:click="load(relatedStory)">{{ relatedStory.title }}</div>
+          <div v-on:click="load(relatedStory)">
+            {{ relatedStory.title }}
+            <img v-bind:src="relatedStory.image.url">
+          </div>
         </li>
       </ul>
 
