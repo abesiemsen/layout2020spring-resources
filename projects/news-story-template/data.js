@@ -1,7 +1,7 @@
 const newsTemplate = new Vue({
   el: '#news-template',
   data: {
-    currentStoryId: 1,
+    currentStoryId: 0,
     stories: [
       {
         title: 'Just about every store at the mall is struggling. Then there’s Bath & Body Works.',
