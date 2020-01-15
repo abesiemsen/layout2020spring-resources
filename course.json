@@ -31,77 +31,84 @@
         "lastName": "Deng",
         "firstName": "Amie",
         "status": "enrolled",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://adeng9800.github.io/layout2020spring/"
+      },
+      {
+        "slug": "Bersabe",
+        "lastName": "Zenebe",
+        "firstName": "Bersabe",
+        "status": "waitlist",
+        "basePath": "https://bzenebe.github.io/layout2020spring/"
       },
       {
         "slug": "BrandonWilburn",
         "lastName": "Wilburn",
         "firstName": "Brandon",
         "status": "enrolled",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://brandon-wilburn.github.io/layout2020spring/"
       },
       {
         "slug": "ChristinaPan",
         "lastName": "Pan",
         "firstName": "Christina",
         "status": "enrolled",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://christinapan98.github.io/layout2020spring/"
       },
       {
         "slug": "DongyoonLee",
         "lastName": "Lee",
         "firstName": "Dongyoon",
         "status": "enrolled",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://ldongy98.github.io/layout2020spring/"
       },
       {
         "slug": "GiorgioGuttilla",
         "lastName": "Guttilla",
         "firstName": "Giorgio",
         "status": "waitlist",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://giorgioguttilla.github.io/layout2020spring/"
       },
       {
         "slug": "JeffersonDuan",
         "lastName": "Duan",
         "firstName": "Jefferson",
         "status": "enrolled",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://jduan26.github.io/layout2020spring/"
       },
       {
         "slug": "JeffSu",
         "lastName": "Su",
         "firstName": "Jeff",
         "status": "waitlist",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://suyjeff.github.io/layout2020spring/"
       },
       {
         "slug": "KimberlyClark",
         "lastName": "Clark",
         "firstName": "Kimberly",
         "status": "waitlist",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://kimberly-clark.github.io/layout2020spring/"
       },
       {
         "slug": "MarissaKalkar",
         "lastName": "Kalkar",
         "firstName": "Marissa",
         "status": "waitlist",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://mkalkar.github.io/layout2020spring/"
       },
       {
         "slug": "MilesLee",
         "lastName": "Lee",
         "firstName": "Miles",
         "status": "enrolled",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://bleehaus.github.io/layout2020spring/"
       },
       {
         "slug": "MinLee",
         "lastName": "Lee",
         "firstName": "Min",
         "status": "enrolled",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://smilemin030.github.io/layout2020spring/"
       },
       {
         "slug": "PTKKyaw",
@@ -115,14 +122,14 @@
         "lastName": "Rhee",
         "firstName": "Sarah",
         "status": "waitlist",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://sarahrheerhee.github.io/layout2020spring/"
       },
       {
         "slug": "TrevorMcKee",
         "lastName": "McKee",
         "firstName": "Trevor",
         "status": "enrolled",
-        "basePath": "https://NEED-YOUR-NAME.github.io/layout2020spring/"
+        "basePath": "https://trevorjmckee.github.io/layout2020spring/"
       }
     ],
     "dropped": [],
