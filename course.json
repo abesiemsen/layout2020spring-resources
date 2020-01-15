@@ -352,6 +352,13 @@
             "assigned": "2020-01-14",
             "due": "2020-01-16",
             "file": "index.html",
+            "references": [
+              {
+                "name": "Vue.js",
+                "link": "https://vuejs.org/v2/guide/syntax.html",
+                "description": "A reference for the Vue template syntax."
+              }
+            ],
             "description": "<p>We'll take an iterative approach to design, and we'll design in the browser. We'll start by focusing on primary text content only: Title, Subtitle, Date, Teaser, Content. Stylistically, your primary objective is to select and apply typeface(s), and make basic text layout choices: sizes, whitespace management, line-length, margin/padding, etc.</p>",
             "instructions": "<p>Add structure and CSS to apply your style choices. Consider uploading more than one version, using <code>deliverable.json</code>.</p>"
           }
