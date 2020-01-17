@@ -361,6 +361,23 @@
             ],
             "description": "<p>We'll take an iterative approach to design, and we'll design in the browser. We'll start by focusing on primary text content only: Title, Subtitle, Date, Teaser, Content. Stylistically, your primary objective is to select and apply typeface(s), and make basic text layout choices: sizes, whitespace management, line-length, margin/padding, etc.</p>",
             "instructions": "<p>Add structure and CSS to apply your style choices. Consider uploading more than one version, using <code>deliverable.json</code>.</p>"
+          },
+          {
+            "slug": "flex-experiment",
+            "name": "Flex Experiment",
+            "hidden": false,
+            "assigned": "2020-01-14",
+            "due": "2020-01-21",
+            "file": "index.html",
+            "references": [
+              {
+                "name": "A Complete Guide to Flexbox",
+                "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+                "description": "The reference Abe likes for explaining all the different ways flex layout can help you arrange things."
+              }
+            ],
+            "description": "<p>Continue to refine your news-story layout, both in style and structure, using some/all of the principles we discussed in class. Also, find a place or places in your layout where flex-box is an appropriate solution to try, and experiment with using flex-based layout rules.</p>",
+            "instructions": "<p>When you feel comfortable with using flex-box as a layout tool, upload what you have!</p>"
           }
         ]
       },
