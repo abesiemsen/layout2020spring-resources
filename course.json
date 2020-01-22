@@ -26,13 +26,7 @@
     ],
     "syllabus": "syllabus.snippet",
     "students": [
-      {
-        "slug": "AmieDeng",
-        "lastName": "Deng",
-        "firstName": "Amie",
-        "status": "enrolled",
-        "basePath": "https://adeng9800.github.io/layout2020spring/"
-      },
+
       {
         "slug": "Bersabe",
         "lastName": "Zenebe",
@@ -104,6 +98,22 @@
         "basePath": "https://bleehaus.github.io/layout2020spring/"
       },
       {
+        "slug": "TrevorMcKee",
+        "lastName": "McKee",
+        "firstName": "Trevor",
+        "status": "enrolled",
+        "basePath": "https://trevorjmckee.github.io/layout2020spring/"
+      }
+    ],
+    "dropped": [
+      {
+        "slug": "AmieDeng",
+        "lastName": "Deng",
+        "firstName": "Amie",
+        "status": "enrolled",
+        "basePath": "https://adeng9800.github.io/layout2020spring/"
+      },
+      {
         "slug": "MinLee",
         "lastName": "Lee",
         "firstName": "Min",
@@ -123,16 +133,8 @@
         "firstName": "Sarah",
         "status": "waitlist",
         "basePath": "https://sarahrheerhee.github.io/layout2020spring/"
-      },
-      {
-        "slug": "TrevorMcKee",
-        "lastName": "McKee",
-        "firstName": "Trevor",
-        "status": "enrolled",
-        "basePath": "https://trevorjmckee.github.io/layout2020spring/"
       }
     ],
-    "dropped": [],
     "sessions": [
       {
         "number": 1,
