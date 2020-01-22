@@ -378,6 +378,17 @@
             ],
             "description": "<p>Continue to refine your news-story layout, both in style and structure, using some/all of the principles we discussed in class. Also, find a place or places in your layout where flex-box is an appropriate solution to try, and experiment with using flex-based layout rules.</p>",
             "instructions": "<p>When you feel comfortable with using flex-box as a layout tool, upload what you have!</p>"
+          },
+          {
+            "slug": "component-layout",
+            "name": "Component Layout",
+            "hidden": false,
+            "assigned": "2020-01-21",
+            "due": "2020-01-23",
+            "file": "index.html",
+            "references": [],
+            "description": "<p>Following the 'component/safe-area' pattern is a useful way to approach common layout challenges in a vertically-stacked page, and provides a good framework for style rules that operate as a system, instead of simply matching styles with page elements 1:1. What are the logical components of the page? Which components should follow your 'default' rules, and which should have exceptions?</p><p>In addition to the specific requirements noted below, make design choices about that rest of the page content that continue to explore options (font, color, size, etc), and that accomodate and complement the large header image.",
+            "instructions": "<p>Create a version of your layout that uses the component/safe-area pattern as a macro-scale solution for page layout. Create an edge-to-edge banner with the story image, and make/apply design decisions as necessary to make the banner 'make sense' at all device-widths.</p>"
           }
         ]
       },
