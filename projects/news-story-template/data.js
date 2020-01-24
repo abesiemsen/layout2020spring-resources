@@ -59,7 +59,7 @@ const newsTemplate = new Vue({
         }
       },
       {
-        title: 'Teenager Discovers Planet Orbiting Binary Stars On Third Day Of NASA Internship',
+        title: 'Teenager Discovers Planet Orbiting Binary Stars On Third Day Of NASA Internship.',
         subtitle: undefined,
         teaser: undefined,
         date: new Date('2020-01-13 16:31:00+0600').toLocaleDateString(),
@@ -68,7 +68,7 @@ const newsTemplate = new Vue({
         ],
         image: {
           url: 'https://cdn.iflscience.com/images/b6a52bd6-2ac7-52c7-8f9c-6d7fad170e90/extra_large-1578926935-cover-image.jpg',
-          caption: `Artist's impression of TOI 1338 b silhouetted against its host stars.NASA's Goddard Space Flight Center/Chris Smith`
+          caption: `Artist's impression of TOI 1338 b silhouetted against its host stars. NASA's Goddard Space Flight Center/Chris Smith`
         },
         source: {
           name: 'IFLScience!',
@@ -86,7 +86,7 @@ const newsTemplate = new Vue({
         `
       },
       {
-        title: 'America’s CFOs Are Warning Of A Recession. Here’s Why That’s An Important Indicator',
+        title: 'America’s CFOs Are Warning Of A Recession. Here’s Why That’s An Important Indicator.',
         subtitle: undefined,
         teaser: undefined,
         date: new Date('2020-01-13 14:22:00+0600').toLocaleDateString(),
