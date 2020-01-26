@@ -37,7 +37,7 @@ const newsTemplate = new Vue({
                 url: article.urlToImage,
                 caption: undefined
               },
-              teaser: `<p>${article.content} <a href="http://newsapi.org" target="_blank">Powered by NewsAPI.org</a>.</p>`,
+              teaser: `<p>${article.content} <a href="https://newsapi.org" target="_blank">Powered by NewsAPI.org</a>.</p>`,
               content: article.text,
               source
             }
@@ -102,7 +102,7 @@ const newsTemplate = new Vue({
               .map(article => {
                 // const ipsumUrl = 'https://loripsum.net/api/' + (6 + Math.floor(Math.random() * 6)) + '/medium/ul/bq';
                 // const ipsumUrl = 'https://corporatelorem.kovah.de/api/' + (6 + Math.floor(Math.random() * 6)) + '/json');
-                const ipsumUrl = 'http://www.randomtext.me/api/lorem/p-' + (6 + Math.floor(Math.random() * 6)) + '/25-75';
+                const ipsumUrl = 'https://www.randomtext.me/api/lorem/p-' + (6 + Math.floor(Math.random() * 6)) + '/25-75';
                 return fetch(new Request(ipsumUrl, { mode: 'cors' }))
                   .then(ipsumResponse => {
                     return ipsumResponse.json();
