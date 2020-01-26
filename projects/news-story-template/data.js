@@ -27,9 +27,12 @@ const newsTemplate = new Vue({
               ...article.source,
               url: article.url
             };
+            titleParts = article.title.split(' - ');
+            titleParts.pop();
+            title = titleParts.length === 0 ? article.title : titleParts.join(' - ');
             return {
               author: article.author,
-              title: article.title,
+              title,
               subtitle: article.description,
               date: new Date(article.publishedAt).toLocaleDateString(),
               tags: source.category ? [ source.category ] : [],
