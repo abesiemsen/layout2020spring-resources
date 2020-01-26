@@ -42,20 +42,6 @@
         "basePath": "https://brandon-wilburn.github.io/layout2020spring/"
       },
       {
-        "slug": "ChristinaPan",
-        "lastName": "Pan",
-        "firstName": "Christina",
-        "status": "enrolled",
-        "basePath": "https://christinapan98.github.io/layout2020spring/"
-      },
-      {
-        "slug": "DongyoonLee",
-        "lastName": "Lee",
-        "firstName": "Dongyoon",
-        "status": "enrolled",
-        "basePath": "https://ldongy98.github.io/layout2020spring/"
-      },
-      {
         "slug": "GiorgioGuttilla",
         "lastName": "Guttilla",
         "firstName": "Giorgio",
@@ -112,6 +98,20 @@
         "firstName": "Amie",
         "status": "enrolled",
         "basePath": "https://adeng9800.github.io/layout2020spring/"
+      },
+      {
+        "slug": "ChristinaPan",
+        "lastName": "Pan",
+        "firstName": "Christina",
+        "status": "enrolled",
+        "basePath": "https://christinapan98.github.io/layout2020spring/"
+      },
+      {
+        "slug": "DongyoonLee",
+        "lastName": "Lee",
+        "firstName": "Dongyoon",
+        "status": "enrolled",
+        "basePath": "https://ldongy98.github.io/layout2020spring/"
       },
       {
         "slug": "MinLee",
