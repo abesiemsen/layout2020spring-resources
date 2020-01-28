@@ -1,6 +1,5 @@
 const newsTemplate = new Vue({
   el: '#news-template',
-<<<<<<< HEAD
   data: {
     currentStoryId: 0,
     stories: [
@@ -60,7 +59,7 @@ const newsTemplate = new Vue({
         }
       },
       {
-        title: 'Teenager Discovers Planet Orbiting Binary Stars On Third Day Of NASA Internship.',
+        title: 'Teenager Discovers Planet Orbiting Binary Stars On Third Day Of NASA Internship',
         subtitle: undefined,
         teaser: undefined,
         date: new Date('2020-01-13 16:31:00+0600').toLocaleDateString(),
@@ -69,7 +68,7 @@ const newsTemplate = new Vue({
         ],
         image: {
           url: 'https://cdn.iflscience.com/images/b6a52bd6-2ac7-52c7-8f9c-6d7fad170e90/extra_large-1578926935-cover-image.jpg',
-          caption: `Artist's impression of TOI 1338 b silhouetted against its host stars. NASA's Goddard Space Flight Center/Chris Smith`
+          caption: `Artist's impression of TOI 1338 b silhouetted against its host stars.NASA's Goddard Space Flight Center/Chris Smith`
         },
         source: {
           name: 'IFLScience!',
@@ -87,7 +86,7 @@ const newsTemplate = new Vue({
         `
       },
       {
-        title: 'America’s CFOs Are Warning Of A Recession. Here’s Why That’s An Important Indicator.',
+        title: 'America’s CFOs Are Warning Of A Recession. Here’s Why That’s An Important Indicator',
         subtitle: undefined,
         teaser: undefined,
         date: new Date('2020-01-13 14:22:00+0600').toLocaleDateString(),
@@ -117,148 +116,26 @@ const newsTemplate = new Vue({
           <p><strong>Tangent:</strong> Nearly two thirds of CFOs <a href="https://www2.deloitte.com/us/en/pages/about-deloitte/articles/press-releases/ninety-seven-percent-of-cfos-say-a-downturn-has-either-already-begun-or-will-next-year.html" target="_blank">surveyed by Deloitte</a> said that U.S. economic performance beyond 2020 will “depend substantially” on the outcome of the elections, while trade policy remains CFOs’ “most worrisome external risk.” Respondents also cited falling expectations for two key measures of the economy: Consumer sentiment, which has largely held steady so far, and business spending, expectations for which hit a three-year low. More than 80% of CFOs also said they had already taken at least one defensive action to mitigate against a potential downturn, as evidenced by their growing focus on cost reduction and returning cash.</p>
         `
       }
-=======
->>>>>>> a7b457b8cc7f9594f0f2d971eea9dd8800df3c1d
 
-  data: function() {
-    return {
-      apikey: 'b7301fef1aa6403898bc27297b14f1fb',
-      cacheDuration: 1000 * 60 * 15,
-      currentStoryId: 0,
-      stories: []
-    };
+    ] // end stories
   },
-
-  created: function() {
-    Promise.all([
-      this.retrieveStories(),
-      this.retrieveSources()
-    ])
-      .then(storiesAndSources => {
-        const storiesResponse = storiesAndSources[0];
-        const sourcesResponse = storiesAndSources[1];
-        console.log(storiesAndSources);
-        this.stories = storiesResponse.articles
-          .map(article => {
-            sourceRecord = sourcesResponse.sources.find(source => source.id === article.source.id);
-            source = {
-              ...sourceRecord,
-              ...article.source,
-              url: article.url
-            };
-            titleParts = article.title.split(' - ');
-            titleParts.pop();
-            title = titleParts.length === 0 ? article.title : titleParts.join(' - ');
-            return {
-              author: article.author,
-              title,
-              subtitle: article.description,
-              date: new Date(article.publishedAt).toLocaleDateString(),
-              tags: source.category ? [ source.category ] : [],
-              image: {
-                url: article.urlToImage,
-                caption: undefined
-              },
-              teaser: `<p>${article.content} <a href="https://newsapi.org" target="_blank">Powered by NewsAPI.org</a>.</p>`,
-              content: article.text,
-              source
-            }
-          })
-      });
-  },
-
   computed: {
-    story: vm => {
-      const article = vm.stories[vm.currentStoryId];
-      return article || { source: {}, image: {} }
-    },
+    story: vm => ({
+      ...vm.stories[vm.currentStoryId]
+    }),
     relatedStories: vm => vm.stories
-      .map( (story, id) => {
+      .map((story, id) => {
         const { tags, date, source, ...rest } = story;
         return { id, ...rest };
       })
-      .filter( (story) => story.id !== vm.currentStoryId)
+      .filter((story) => story.id !== vm.currentStoryId)
   },
-
   methods: {
-
-    load: function(relatedStory) {
+    load: function (relatedStory) {
       this.currentStoryId = relatedStory.id;
-      window.scrollTo(0,0);
-    },
-
-    retrieveStories: function() {
-      const fromCache = window.localStorage.getItem('stories');
-      if (!!fromCache) {
-        const data = JSON.parse(fromCache);
-        if ( (data.retrievedAt + this.cacheDuration) > new Date().getTime() ) {
-          return Promise.resolve(data);
-        }
-      }
-      return this.getStoriesFromAPI();
-    },
-
-    retrieveSources: function () {
-      const fromCache = window.localStorage.getItem('sources');
-      if (!!fromCache) {
-        const data = JSON.parse(fromCache);
-        if ((data.retrievedAt + this.cacheDuration) > new Date().getTime()) {
-          return Promise.resolve(data);
-        }
-      }
-      return this.getSourcesFromAPI();
-    },
-
-    getStoriesFromAPI: function () {
-      const url = 'https://newsapi.org/v2/top-headlines?' +
-        'country=us&' +
-        'apiKey=' + this.apikey;
-      const req = new Request(url);
-      return fetch(req)
-        .then(result => result.json())
-        .then(json => {
-          json.retrievedAt = new Date().getTime();
-          // return json;
-          return Promise.all(
-            json.articles
-              .map(article => {
-                // const ipsumUrl = 'https://loripsum.net/api/' + (6 + Math.floor(Math.random() * 6)) + '/medium/ul/bq';
-                // const ipsumUrl = 'https://corporatelorem.kovah.de/api/' + (6 + Math.floor(Math.random() * 6)) + '/json');
-                const ipsumUrl = 'https://www.randomtext.me/api/lorem/p-' + (6 + Math.floor(Math.random() * 6)) + '/25-75';
-                return fetch(new Request(ipsumUrl, { mode: 'cors' }))
-                  .then(ipsumResponse => {
-                    return ipsumResponse.json();
-                  })
-                  .then(text => {
-                    return { ...article, text:text.text_out };
-                  })
-                  .catch(err => {
-                    return article;
-                  });
-              })
-          )
-            .then(articles => ({...json, articles}));
-        })
-        .then(json => {
-          window.localStorage.setItem('stories', JSON.stringify(json));
-          return json;
-        });
-    },
-
-    getSourcesFromAPI: function () {
-      const url = 'https://newsapi.org/v2/sources?' +
-        'apiKey=' + this.apikey;
-      const req = new Request(url);
-      return fetch(req)
-        .then(result => result.json())
-        .then(json => {
-          json.retrievedAt = new Date().getTime();
-          window.localStorage.setItem('sources', JSON.stringify(json));
-          return json;
-        });
+      window.scrollTo(0, 0);
     }
   },
-
   filters: {
     json: function (value) {
       return JSON.stringify(value, null, 2);
