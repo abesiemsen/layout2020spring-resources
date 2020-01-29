@@ -402,6 +402,17 @@
             "references": [],
             "description": "<p>Based on the feedback/discussion you had with me in class, create at least three different versions of your news-template, aimed at different communication objectives. One might aim to be the most main-stream, conventional, middle of the road presentation it can be. One might be the one that aims to be bold, in your face, attention-grabbing. One might be inviting, friendly, accessible. One might be aimed at really treating the image as the hero content. One might be aimed at really activating margin-space in order to 'break out of the single column feel at larger sizes.</p><p>Whatever targets you pick, use them to guide your design decisions. &ldquo;Is this typeface really agressive enough? How big can it go and still work?&rdquo;</p><p>Consider, these iterations don't necessarily require big structural changes in your html. You may find that you just need to change css. In fact, <em>only</em> having to change css would be a very good indication that you've structured your html in a very semantic way, in which it describes the content, not the design, and is therefore useful for <em>any</em> design.</p>",
             "instructions": "<p>Use <code>deliverable.json</code> to upload at least three versions of your news-template design.</p>"
+          },
+          {
+            "slug": "related-story-iterations",
+            "name": "Related Story Iterations",
+            "hidden": false,
+            "assigned": "2020-01-28",
+            "due": "2020-01-30",
+            "file": "index.html",
+            "references": [],
+            "description": "<p>In class, we walked through how to use flex layout to manage grid items responsively in the macro layout, and also experimented with using flex to handle micro-layout issues. We also used a flew sneaky tricks to handle common layout headaches. We negative margin on the flex container to 'make room' for interior gutter margins. We used the 'padding-bottom' trick (along with absolute positioning) to create a fixed-aspect-ratio container for the purpose of conforming all images to a consistent size/shape. We set <code>img</code> tags to be <code>display: block;</code> in order to get rid of the phantom space beneath.</p><p>Now, it's time to put some of these techniques to work in your own layouts! Create three versions of the 'related-stories' block, where all of the various 'elbows' are safely tucked-in, and the page feels like a fully-controlled flexible system.</p>",
+            "instructions": "<p>Use <code>deliverable.json</code> to upload at least three different visual/technical approaches to the related story items. They can be isolated experiments, or more integrated with your existing overall templates, as you see fit.</p>"
           }
         ]
       },
