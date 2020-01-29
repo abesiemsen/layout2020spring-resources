@@ -28,9 +28,9 @@
     "students": [
 
       {
-        "slug": "Bersabe",
+        "slug": "Bersabeh",
         "lastName": "Zenebe",
-        "firstName": "Bersabe",
+        "firstName": "Bersabeh",
         "status": "waitlist",
         "basePath": "https://bzenebe.github.io/layout2020spring/"
       },
