@@ -424,6 +424,17 @@
             "references": [],
             "description": "<p><em>What is missing that prevents this template from being portfolio-ready?</em></p>",
             "instructions": "<p>Take the results of your experiments and iterations, pick a visual direction that's the right one to follow, make a version of the layout that has zero broken or unfinished technical components, and which introduces static elements for any aspects of the story you feel are not represented. (e.g.: Author details, social media links, in-story content like pull-quotes, etc.)</p><p>Recognizing that we'll approach masthead/navigation/footer next week, stay focused on story-specific elements for now.</p>"
+          },
+          {
+            "slug": "finished-story-layout",
+            "name": "Finished Story Layout",
+            "hidden": false,
+            "assigned": "2020-02-04",
+            "due": "2020-02-06",
+            "file": "index.html",
+            "references": [],
+            "description": "<p>Time to finalize decisions, at least as much as we can without masthead / navigation / footer.</p>",
+            "instructions": "<p>Revise per your discussion with me in class, and post your final pre-masthead story template.</p>"
           }
         ]
       },
