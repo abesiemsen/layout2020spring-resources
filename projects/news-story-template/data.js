@@ -18,7 +18,6 @@ const newsTemplate = new Vue({
       .then(storiesAndSources => {
         const storiesResponse = storiesAndSources[0];
         const sourcesResponse = storiesAndSources[1];
-        console.log(storiesAndSources);
         this.stories = storiesResponse.articles
           .map(article => {
             sourceRecord = sourcesResponse.sources.find(source => source.id === article.source.id);
@@ -55,10 +54,17 @@ const newsTemplate = new Vue({
     },
     relatedStories: vm => vm.stories
       .map( (story, id) => {
-        const { tags, date, source, ...rest } = story;
+        const { date, source, ...rest } = story;
         return { id, ...rest };
       })
-      .filter( (story) => story.id !== vm.currentStoryId)
+      .filter( (story) => story.id !== vm.currentStoryId),
+    storiesWithSameTag: vm => {
+      if (!!vm.story.tags && vm.story.tags.length > 0) {
+        return vm.relatedStories
+          .filter(story => story.tags.indexOf(vm.story.tags[0]) > -1);
+      }
+      return [];
+    },
   },
 
   methods: {
@@ -137,6 +143,11 @@ const newsTemplate = new Vue({
           window.localStorage.setItem('sources', JSON.stringify(json));
           return json;
         });
+    },
+
+    topStories: function (count) {
+      return this.relatedStories
+        .slice(0, count);
     }
   },
 
