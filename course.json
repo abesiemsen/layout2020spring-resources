@@ -430,6 +430,51 @@
 
 
       {
+        "slug": "news-site-header",
+        "name": "News Site Header",
+        "hidden": false,
+        "start": "2020-02-11",
+        "end": "2020-02-27",
+        "description": "<p>Our news site needs a header. Building a responsive site header, with all it's component parts and pieces, tends to be a fairly challenging endeavor. In order to present yourself with a typical set of challenges, your site header should mee the following requirements:</p><ul><li>It should include three major elements:<ul><li>Branding / Masthead</li><li>Primary Navigation</li><li>Account / Sign-up navigation</li></ul></li><li>Masthead should include site name or brand. It should probably include a tagline.</li><li>Primary navigation options should be two levels deep<ul><li>At least 2 top-level items have sub-categories</li><li>Roughly 20 total individual navigation options (top and sub combined)</li></ul></li><li>It should be responsive (work visually at any screen-width).<ul><li>At mobile sizes, primary nav should be hidden behind hamburger menu button or similar</li><li>At desktop sizes, top-level primary nav is NOT hidden. Sub-items probably remain hidden, using flyout navigation or similar.</li></ul></li><li>Account / sign up navigation should consider (at least) two states: not logged in, and logged in.</li><li>Other requirements:<ul><li>It should use real names for things (no obvious repetition or placeholders)</li><li>It should present appropriate categories/sub-categories for primary nav, given the purpose of the site.</li></ul></li></ul>",
+        "deliverables": [
+          {
+            "slug": "mobile-nav-layout",
+            "name": "Mobile Nav Layout",
+            "hidden": false,
+            "assigned": "2020-02-11",
+            "due": "2020-02-13",
+            "file": "index.html",
+            "description": "We'll start by designing and building the simplest component of the layout: The primary mobile navigation.",
+            "instructions": "<p>Make decisions about the categorization of your primary navigation options, based on appropriate research. Design how those navigation options will present themselves visually <strong>at mobile size</strong>, either as a high-fidelity mockup, or using HTML/CSS.</p><p><strong>DO:</strong></p><ul><li>Consider your fat-fingered users, and what they need to accomplish.</li><li>Manage hierarchy of top-level vs secondary-level options.</li><li>Demonstrate how the 'open' navigation menu will handle the bottom of the screen.</li></ul><p><strong>DO NOT:</strong></p><ul><li>Worry about desktop layout.</li><li>Worry about programming click/touch interactions. You can just show us the 'open' state, as if a user had already opened/expanded whatever options they can.</li></ul>"
+          },
+          {
+            "slug": "deliverable-slug-goes-here",
+            "name": "Deliverable Name Goes Here",
+            "hidden": true,
+            "assigned": "2020-01-01",
+            "due": "2020-02-01",
+            "file": "index.html",
+            "description": "Deliverable description html goes here.",
+            "instructions": "Deliverable instructions html goes here.",
+            "references": [
+              {
+                "name": "Reference Name Goes Here",
+                "link": "reference/url/goes/here",
+                "description": "Describe the reference here."
+              }
+            ],
+            "examples": [
+              {
+                "name": "Example Name Goes Here",
+                "link": "example/url/goes/here"
+              }
+            ]
+          }
+        ]
+      },
+
+
+      {
         "slug": "project-slug-goes-here",
         "name": "Project Name Goes Here",
         "hidden": true,
