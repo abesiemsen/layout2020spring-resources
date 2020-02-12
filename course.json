@@ -424,6 +424,28 @@
             "references": [],
             "description": "<p><em>What is missing that prevents this template from being portfolio-ready?</em></p>",
             "instructions": "<p>Take the results of your experiments and iterations, pick a visual direction that's the right one to follow, make a version of the layout that has zero broken or unfinished technical components, and which introduces static elements for any aspects of the story you feel are not represented. (e.g.: Author details, social media links, in-story content like pull-quotes, etc.)</p><p>Recognizing that we'll approach masthead/navigation/footer next week, stay focused on story-specific elements for now.</p>"
+          },
+          {
+            "slug": "finished-story-layout",
+            "name": "Finished Story Layout",
+            "hidden": false,
+            "assigned": "2020-02-04",
+            "due": "2020-02-06",
+            "file": "index.html",
+            "references": [],
+            "description": "<p>Time to finalize decisions, at least as much as we can without masthead / navigation / footer.</p><p><strong>NOTE: I've added two new access options to our data. You can now get an array called <code>storiesWithSameTag</code>. You can also a get subset of top stories using <code>topStories(n)</code> where <code>n</code> is the number of stories you want.</strong></p>",
+            "instructions": "<p>Revise per your discussion with me in class, and post your final pre-masthead story template.</p>"
+          },
+          {
+            "slug": "news-site-branding",
+            "name": "News Site Branding",
+            "hidden": false,
+            "assigned": "2020-02-06",
+            "due": "2020-02-11",
+            "file": "index.html",
+            "references": [],
+            "description": "<p>Create a brand for your news site. Name it, give it a tag line, develop a simple color palette, and ultimately create something along the lines of a styled 'masthead' to use on the site. Don't bother with a logomark. Instead, use the name of the site as the visual 'signature', and design that. Use whatever design tools you prefer to explore ideas. Upload a page that shows me where you've landed, but also document your ideas, iterations, concepts, etc. <em>The deliverable will not be an iteration of the existing news site, it will just be a page with branding concepts, and your selected final direction.</em> I'll expect you to refine the brand as we move into future aspects of the project, but don't expect dedicated time for it &mdash; this week is your one chance to focus entirely on this aspect of the project!</p>",
+            "instructions": "<p>Don't worry about rendering the brand in HTML/CSS yet, if you prefer not to. You may deliver an HTML page with embedded images exported from other tools, photos of drawings, whatever, but understand that ultimately the finished design it will end up being part of an HTML page, so consider ramifications of font-choices, etc.</p>"
           }
         ]
       },
