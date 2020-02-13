@@ -466,8 +466,35 @@
             "assigned": "2020-02-11",
             "due": "2020-02-13",
             "file": "index.html",
-            "description": "We'll start by designing and building the simplest component of the layout: The primary mobile navigation.",
+            "description": "<p>We'll start by designing and building the simplest component of the layout: The primary mobile navigation.</p>",
             "instructions": "<p>Make decisions about the categorization of your primary navigation options, based on appropriate research. Design how those navigation options will present themselves visually <strong>at mobile size</strong>, either as a high-fidelity mockup, or using HTML/CSS.</p><p><strong>DO:</strong></p><ul><li>Consider your fat-fingered users, and what they need to accomplish.</li><li>Manage hierarchy of top-level vs secondary-level options.</li><li>Demonstrate how the 'open' navigation menu will handle the bottom of the screen.</li></ul><p><strong>DO NOT:</strong></p><ul><li>Worry about desktop layout.</li><li>Worry about programming click/touch interactions. You can just show us the 'open' state, as if a user had already opened/expanded whatever options they can.</li></ul>"
+          },
+          {
+            "slug": "mobile-site-header",
+            "name": "Mobile Site Header",
+            "hidden": false,
+            "assigned": "2020-02-13",
+            "due": "2020-02-018",
+            "file": "index.html",
+            "description": "<p>Design and build the site header for mobile (menu collapsed).</p>",
+            "instructions": "<p>This deliverable includes the HTML/CSS required for the site header (mobile only), before any user interaction takes place. It should include masthead/branding, the button/control users will use to toggle the main nav menu, and possibly the account nav (depending on your design).</p>"
+          },
+          {
+            "slug": "enabled-mobile-nav",
+            "name": "Enabled Mobile Nav",
+            "hidden": false,
+            "assigned": "2020-02-13",
+            "due": "2020-02-018",
+            "file": "index.html",
+            "description": "<p>Make your mobile menu open and close. Decide what the user control(s) look like, where they go, and how they operate, then implement your plan.</p>",
+            "instructions": "<p>Use the code provided in the link below as a starting point, or use your own strategy. It's up to you.</p>",
+            "references": [
+              {
+                "name": "starter.html",
+                "link": "projects/news-story-template/starter.html",
+                "description": "I've added some menu-toggling code to the starter file."
+              }
+            ]
           },
           {
             "slug": "deliverable-slug-goes-here",

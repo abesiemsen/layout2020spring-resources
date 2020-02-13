@@ -6,6 +6,22 @@
     <style>[v-cloak] { display: none; } img {max-width: 100%;}</style>
   </head>
   <body>
+
+    <!-- Site Header -->
+    <header id="news-site-header">
+      <div v-on:click="toggleTheHamburgerMenu()">hamburger</div>
+      <div v-show="menuIsOpen">
+        <nav>
+          <ul>
+            <li>
+              <a href="#">I am a menu item!</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
     <div id="news-template" v-cloak>
       
       <!-- Main Story -->
@@ -63,5 +79,21 @@
     <!-- Scripts here are what load the Vue library, and the actual story content. -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="https://abesiemsen.github.io/layout2020spring-resources/projects/news-story-template/data.js"></script>
+    
+    <!-- Script that adds Vue capability to #news-site-header (This can, and should, really be in your own .js file) -->
+    <script>
+      new Vue({
+        el: '#news-site-header',
+        data: {
+          menuIsOpen: false
+        },
+        methods: {
+          toggleTheHamburgerMenu: function() {
+            this.menuIsOpen = !this.menuIsOpen
+          }
+        }
+      })
+    </script>
+    
   </body>
 </html>
