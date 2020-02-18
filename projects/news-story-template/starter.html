@@ -5,16 +5,83 @@
     <title>News Story Template</title>
     <style>[v-cloak] { display: none; } img {max-width: 100%;}</style>
   </head>
+  <style>
+    .menu-container {
+      width: 300px;
+      height: 100vh;
+      overflow-y: auto;
+      background-color: #ccc;
+      position: fixed;
+      right:0;
+      top: 0;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+      transform: translateX(20px);
+    }
+
+    .menu-container.menu-is-open {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(0);
+    }
+
+  </style>
   <body>
 
     <!-- Site Header -->
     <header id="news-site-header">
-      <div v-on:click="toggleTheHamburgerMenu()">hamburger</div>
-      <div v-show="menuIsOpen">
+      <div><button v-on:click="toggleTheHamburgerMenu()">hamburger</button></div>
+      <div class="menu-container" v-bind:class="{ 'menu-is-open': menuIsOpen }">
         <nav>
           <ul>
-            <li>
-              <a href="#">I am a menu item!</a>
+            <li class="expandable">
+              <a href="#">News</a>
+              <ul>
+                <li>
+                  <a href="#">Headlines</a>
+                </li>
+                <li>
+                  <a href="#">Politics</a>
+                </li>
+                <li>
+                  <a href="#">Science</a>
+                </li>
+                <li>
+                  <a href="#">Entertainment</a>
+                </li>
+              </ul>
+            </li>
+            <li class="expandable">
+              <a href="#">Opinion</a>
+              <ul>
+                <li>
+                  <a href="#">Columns</a>
+                </li>
+                <li>
+                  <a href="#">Letters</a>
+                </li>
+              </ul>
+            </li>
+            <li class="expandable">
+              <a href="#">Sports</a>
+              <ul>
+                <li>
+                  <a href="#">Baseball</a>
+                </li>
+                <li>
+                  <a href="#">Football</a>
+                </li>
+                <li>
+                  <a href="#">Basketball</a>
+                </li>
+                <li>
+                  <a href="#">Hockey</a>
+                </li>
+                <li>
+                  <a href="#">Soccer</a>
+                </li>
+              </ul>
             </li>
           </ul>
         </nav>
@@ -93,6 +160,30 @@
           }
         }
       })
+    </script>
+
+    <!-- Script that adds 'expandable' capability for sub-menus. -->
+    <script>
+      
+      var expandables = document.getElementsByClassName('expandable');
+      
+      for (let expandable of expandables) {
+        let triggerElement = expandable.querySelector('a');
+        triggerElement.addEventListener('click', function(event) {
+          event.preventDefault();
+          closeAllExcept(expandable);
+          expandable.classList.toggle('expanded');
+        })
+      }
+
+      function closeAllExcept(clickedExpandable) {
+        for (let expandable of expandables) {
+          if (expandable !== clickedExpandable) {
+            expandable.classList.remove('expanded')
+          }
+        }
+      }
+
     </script>
     
   </body>
