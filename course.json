@@ -484,7 +484,7 @@
             "name": "Enabled Mobile Nav",
             "hidden": false,
             "assigned": "2020-02-13",
-            "due": "2020-02-018",
+            "due": "2020-02-20",
             "file": "index.html",
             "description": "<p>Make your mobile menu open and close. Decide what the user control(s) look like, where they go, and how they operate, then implement your plan.</p>",
             "instructions": "<p>Use the code provided in the link below as a starting point, or use your own strategy. It's up to you.</p>",
