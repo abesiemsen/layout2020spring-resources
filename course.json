@@ -508,6 +508,17 @@
             "references": []
           },
           {
+            "slug": "header-and-story-together",
+            "name": "Header and Story Together",
+            "hidden": false,
+            "assigned": "2020-02-25",
+            "due": "2020-02-27",
+            "file": "index.html",
+            "description": "<p>Once your header design is complete and displaying correctly at all sizes with all required components, it's time to combine it with actual page content.</p>",
+            "instructions": "<p>Complete whatever is unfinished, and integrate header with story template.</p>",
+            "references": []
+          },
+          {
             "slug": "deliverable-slug-goes-here",
             "name": "Deliverable Name Goes Here",
             "hidden": true,
