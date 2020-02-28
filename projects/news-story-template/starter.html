@@ -3,144 +3,142 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News Story Template</title>
+    <link href="css/styles.css" rel="stylesheet">
     <style>[v-cloak] { display: none; } img {max-width: 100%;}</style>
   </head>
-  <style>
-    .menu-container {
-      width: 300px;
-      height: 100vh;
-      overflow-y: auto;
-      background-color: #ccc;
-      position: fixed;
-      right:0;
-      top: 0;
-      visibility: hidden;
-      opacity: 0;
-      transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
-      transform: translateX(20px);
-    }
-
-    .menu-container.menu-is-open {
-      opacity: 1;
-      visibility: visible;
-      transform: translateX(0);
-    }
-
-  </style>
   <body>
 
     <!-- Site Header -->
-    <header id="news-site-header">
-      <div><button v-on:click="toggleTheHamburgerMenu()">hamburger</button></div>
-      <div class="menu-container" v-bind:class="{ 'menu-is-open': menuIsOpen }">
-        <nav>
-          <ul>
-            <li class="expandable">
-              <a href="#">News</a>
-              <ul>
-                <li>
-                  <a href="#">Headlines</a>
-                </li>
-                <li>
-                  <a href="#">Politics</a>
-                </li>
-                <li>
-                  <a href="#">Science</a>
-                </li>
-                <li>
-                  <a href="#">Entertainment</a>
-                </li>
-              </ul>
-            </li>
-            <li class="expandable">
-              <a href="#">Opinion</a>
-              <ul>
-                <li>
-                  <a href="#">Columns</a>
-                </li>
-                <li>
-                  <a href="#">Letters</a>
-                </li>
-              </ul>
-            </li>
-            <li class="expandable">
-              <a href="#">Sports</a>
-              <ul>
-                <li>
-                  <a href="#">Baseball</a>
-                </li>
-                <li>
-                  <a href="#">Football</a>
-                </li>
-                <li>
-                  <a href="#">Basketball</a>
-                </li>
-                <li>
-                  <a href="#">Hockey</a>
-                </li>
-                <li>
-                  <a href="#">Soccer</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
+    <header id="news-site-header" class="top-bar">
+      <div class="safe-area">
+
+        <div class="visible-header">
+          <div class="hamburger">
+            <button v-on:click="toggleTheHamburgerMenu()">hamburger</button>
+          </div>
+
+          <div class="branding">
+            Abe's Daily News
+          </div>
+
+          <nav class="account-nav">
+            Sign In
+          </nav>
+        </div>
+
+        <div class="menu-container" v-bind:class="{ 'menu-is-open': menuIsOpen }">
+          <nav>
+            <ul class="top-nav">
+              <li class="expandable">
+                <a href="#">News</a>
+                <ul>
+                  <li>
+                    <a href="#">Headlines</a>
+                  </li>
+                  <li>
+                    <a href="#">Politics</a>
+                  </li>
+                  <li>
+                    <a href="#">Science</a>
+                  </li>
+                  <li>
+                    <a href="#">Entertainment</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="expandable">
+                <a href="#">Opinion</a>
+                <ul>
+                  <li>
+                    <a href="#">Columns</a>
+                  </li>
+                  <li>
+                    <a href="#">Letters</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="expandable">
+                <a href="#">Sports</a>
+                <ul>
+                  <li>
+                    <a href="#">Baseball</a>
+                  </li>
+                  <li>
+                    <a href="#">Football</a>
+                  </li>
+                  <li>
+                    <a href="#">Basketball</a>
+                  </li>
+                  <li>
+                    <a href="#">Hockey</a>
+                  </li>
+                  <li>
+                    <a href="#">Soccer</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
       </div>
     </header>
 
 
     <div id="news-template" v-cloak>
+      <div class="safe-area">
+
+        <!-- Main Story -->
+        {{ story.title }}
+        {{ story.subtitle }}
+        {{ story.date }}
+        <span v-for="tag in story.tags">{{ tag }}</span>
+        <img v-bind:src="story.image.url">
+        {{ story.image.caption }}
+        <a v-bind:href="story.source.url">{{ story.source.name }}</a>
+        <span v-html="story.teaser"></span>
+        <span v-html="story.content"></span>
+
+        <!-- Related Stories-->
+        <h2>Related Stories</h2>
+        <ul>
+          <li v-for="relatedStory in relatedStories">
+            <div v-on:click="load(relatedStory)">
+              {{ relatedStory.title }}
+              <img v-bind:src="relatedStory.image.url">
+            </div>
+          </li>
+        </ul>
+
+        <!-- Top 3 stories-->
+        <h2>Top Stories</h2>
+        <ul>
+          <li v-for="topStory in topStories(3)">
+            <div v-on:click="load(topStory)">
+              {{ topStory.title }}
+              <img v-bind:src="topStory.image.url">
+            </div>
+          </li>
+        </ul>
+
+        <!-- Stories with same tag -->
+        <h2>Same Tag</h2>
+        <ul>
+          <li v-for="taggedStory in storiesWithSameTag">
+            <div v-on:click="load(taggedStory)">
+              {{ taggedStory.title }}
+              <img v-bind:src="taggedStory.image.url">
+            </div>
+          </li>
+        </ul>
+
+        <!-- Useful debugging info, you can comment this section out when you don't need it. -->
+        <!-- <pre>The story object: {{ story | json }}</pre> -->
+        <!-- <pre>The relatedStories array: {{ relatedStories | json }}</pre> -->
+        <!-- <pre>The topStories array: {{ topStories(2) | json }}</pre> -->
+        <!-- <pre>The storiesWithSameTag array: {{ storiesWithSameTag | json }}</pre> -->
       
-      <!-- Main Story -->
-      {{ story.title }}
-      {{ story.subtitle }}
-      {{ story.date }}
-      <span v-for="tag in story.tags">{{ tag }}</span>
-      <img v-bind:src="story.image.url">
-      {{ story.image.caption }}
-      <a v-bind:href="story.source.url">{{ story.source.name }}</a>
-      <span v-html="story.teaser"></span>
-      <span v-html="story.content"></span>
-
-      <!-- Related Stories-->
-      <h2>Related Stories</h2>
-      <ul>
-        <li v-for="relatedStory in relatedStories">
-          <div v-on:click="load(relatedStory)">
-            {{ relatedStory.title }}
-            <img v-bind:src="relatedStory.image.url">
-          </div>
-        </li>
-      </ul>
-
-      <!-- Top 3 stories-->
-      <h2>Top Stories</h2>
-      <ul>
-        <li v-for="topStory in topStories(3)">
-          <div v-on:click="load(topStory)">
-            {{ topStory.title }}
-            <img v-bind:src="topStory.image.url">
-          </div>
-        </li>
-      </ul>
-
-      <!-- Stories with same tag -->
-      <h2>Same Tag</h2>
-      <ul>
-        <li v-for="taggedStory in storiesWithSameTag">
-          <div v-on:click="load(taggedStory)">
-            {{ taggedStory.title }}
-            <img v-bind:src="taggedStory.image.url">
-          </div>
-        </li>
-      </ul>
-
-      <!-- Useful debugging info, you can comment this section out when you don't need it. -->
-      <!-- <pre>The story object: {{ story | json }}</pre> -->
-      <!-- <pre>The relatedStories array: {{ relatedStories | json }}</pre> -->
-      <!-- <pre>The topStories array: {{ topStories(2) | json }}</pre> -->
-      <!-- <pre>The storiesWithSameTag array: {{ storiesWithSameTag | json }}</pre> -->
-
+      </div>
     </div>
 
     <!-- Scripts here are what load the Vue library, and the actual story content. -->
