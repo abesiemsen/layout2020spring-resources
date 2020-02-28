@@ -497,6 +497,28 @@
             ]
           },
           {
+            "slug": "full-site-header",
+            "name": "Full Site Header",
+            "hidden": false,
+            "assigned": "2020-02-20",
+            "due": "2020-02-25",
+            "file": "index.html",
+            "description": "<p>Our next step is to design and build the site header for full-screen sizes. This includes:</p><ul><li>Determining placement of branding, primary navigation and account-navigation elements</li><li>Successfully transitioning between the existing mobile layout and the new desktop layout using media-queries and/or other responsive design techniques</li><li>Handling functionality of the drop-down behavior for submenu options (as needed for your layout).</li></ul>",
+            "instructions": "<p>Make the necessary updates, and post as usual.</p>",
+            "references": []
+          },
+          {
+            "slug": "header-and-story-together",
+            "name": "Header and Story Together",
+            "hidden": false,
+            "assigned": "2020-02-25",
+            "due": "2020-02-27",
+            "file": "index.html",
+            "description": "<p>Once your header design is complete and displaying correctly at all sizes with all required components, it's time to combine it with actual page content.</p>",
+            "instructions": "<p>Complete whatever is unfinished, and integrate header with story template.</p>",
+            "references": []
+          },
+          {
             "slug": "deliverable-slug-goes-here",
             "name": "Deliverable Name Goes Here",
             "hidden": true,
