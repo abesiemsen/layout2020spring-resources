@@ -519,6 +519,17 @@
             "references": []
           },
           {
+            "slug": "final-deliverable",
+            "name": "Final Deliverable",
+            "hidden": false,
+            "assigned": "2020-02-27",
+            "due": "2020-03-05",
+            "file": "index.html",
+            "description": "<p>Be done with it!</p>",
+            "instructions": "<p>Resolve remaining issues and problems, then post the News Story Layout that you'll be proud of as an example of your work.</p>",
+            "references": []
+          },
+          {
             "slug": "deliverable-slug-goes-here",
             "name": "Deliverable Name Goes Here",
             "hidden": true,
