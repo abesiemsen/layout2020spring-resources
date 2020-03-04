@@ -525,10 +525,35 @@
             "assigned": "2020-02-27",
             "due": "2020-03-05",
             "file": "index.html",
-            "description": "<p>Be done with it!</p>",
-            "instructions": "<p>Resolve remaining issues and problems, then post the News Story Layout that you'll be proud of as an example of your work.</p>",
+            "description": "<p>Be done with it!</p><p>In addition to the requirements described for the header itself, make sure you have a footer that includes at a minimum:</p><ul><li>Social media nav (unless you have this elsewhere on the page already)<li><li>'Business' nav (Privacy Policy, Terms and Conditions, Contact Us, etc)</li><li>Copyright/disclosure text</li></ul><p>These footer items should arrange themselves responsively (i.e. should work on any device). Links can be blank or placeholder.</p>",
+            "instructions": "<p>Add the footer, resolve remaining issues and problems, then post the News Story Layout that you'll be proud of as an example of your fine work!</p>",
             "references": []
-          },
+          }
+        ]
+      },
+
+
+      {
+        "slug": "game-interface",
+        "name": "Game Interface",
+        "hidden": true,
+        "start": "2020-01-01",
+        "end": "2020-01-01",
+        "description": "Design and build an app or game interface (not the whole game) using html/css (and potentially javascript).",
+        "references": [
+          {
+            "name": "Sample deliverable.json",
+            "link": "reference/url/goes/here",
+            "description": "Describe the reference here."
+          }
+        ],
+        "examples": [
+          {
+            "name": "Sample deliverable.json",
+            "link": "link/goes/here"
+          }
+        ],
+        "deliverables": [
           {
             "slug": "deliverable-slug-goes-here",
             "name": "Deliverable Name Goes Here",
@@ -554,6 +579,56 @@
           }
         ]
       },
+
+
+
+      {
+        "slug": "layout-framework-implementation",
+        "name": "Layout Framework Implementation",
+        "hidden": true,
+        "start": "2020-01-01",
+        "end": "2020-01-01",
+        "description": "Build a static site using a layout framework such as Bootstrap or Foundation.",
+        "references": [
+          {
+            "name": "Sample deliverable.json",
+            "link": "reference/url/goes/here",
+            "description": "Describe the reference here."
+          }
+        ],
+        "examples": [
+          {
+            "name": "Sample deliverable.json",
+            "link": "link/goes/here"
+          }
+        ],
+        "deliverables": [
+          {
+            "slug": "deliverable-slug-goes-here",
+            "name": "Deliverable Name Goes Here",
+            "hidden": true,
+            "assigned": "2020-01-01",
+            "due": "2020-02-01",
+            "file": "index.html",
+            "description": "Deliverable description html goes here.",
+            "instructions": "Deliverable instructions html goes here.",
+            "references": [
+              {
+                "name": "Reference Name Goes Here",
+                "link": "reference/url/goes/here",
+                "description": "Describe the reference here."
+              }
+            ],
+            "examples": [
+              {
+                "name": "Example Name Goes Here",
+                "link": "example/url/goes/here"
+              }
+            ]
+          }
+        ]
+      },
+
 
 
       {
