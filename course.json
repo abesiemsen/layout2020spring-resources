@@ -536,46 +536,24 @@
       {
         "slug": "game-interface",
         "name": "Game Interface",
-        "hidden": true,
-        "start": "2020-01-01",
-        "end": "2020-01-01",
-        "description": "Design and build an app or game interface (not the whole game) using html/css (and potentially javascript).",
+        "hidden": false,
+        "start": "2020-03-22",
+        "end": "2020-04-23",
+        "description": "<p><strong><em>Choose this project OR the Layout Framework project &mdash; not both!</em></strong></p><p>Design and build a game interface (not the whole game!) using html/css (and potentially javascript).</p><p>Picture the typical screen interface components of a game on a computer or mobile device. Depending on the game mechanics, these components might include:</p><ul><li>Lives/Health/Energy indicators</li><li>Action bar (buttons to perform specifc actions like casting a spell or firing a weapon)</li><li>Weapon/skill selector</li><li>Mini-map or radar</li><li>Quest or mission objectives</li><li>Target display or information</li><li>Character information (level, class, etc.)</li><li>Inventory management</li><li>...you get the idea!</li></ul><p>We certainly don't have time to design and build an entire game, but we do have time to imagine one in broad-strokes, then consider a small handful of these kinds of interface components in greater detail. We can apply our knowledge of HTML and CSS to demonstrate interactively how these components might function superficially: that is, how they change color, shape, size, arrangement and so-forth as we use them.</p><p>Each component will likely incorporate aspects of <strong>identification</strong> (what it's for), <strong>interaction</strong> (how you use it), <strong>status</strong> (what is it's current state, what other states are possible), and <strong>feedback</strong> (acknowledgement of the user acting upon it).</p><p>You will design a small subset of components, Think through the four aspects noted above, build the components in html/css/js, and place them on the screen as they would actually be positioned in a real game.</p><p>Learning Objectives:</p><ul><li>Develop facility with 'micro-layouts'.</li><li>Gain mastery of css positioning techniques, particularly with regarding to 'grouping'.</li><li>Increase familarity with css transformations, transitions, and animations.</li><li>Explore a broad range of interaction/feedback options.</li><li>Experiment with the interplay between javascript and css.</li></ul>",
         "references": [
-          {
-            "name": "Sample deliverable.json",
-            "link": "reference/url/goes/here",
-            "description": "Describe the reference here."
-          }
         ],
         "examples": [
-          {
-            "name": "Sample deliverable.json",
-            "link": "link/goes/here"
-          }
         ],
         "deliverables": [
           {
-            "slug": "deliverable-slug-goes-here",
-            "name": "Deliverable Name Goes Here",
-            "hidden": true,
-            "assigned": "2020-01-01",
-            "due": "2020-02-01",
+            "slug": "concept",
+            "name": "Concept",
+            "hidden": false,
+            "assigned": "2020-03-22",
+            "due": "2020-03-27",
             "file": "index.html",
-            "description": "Deliverable description html goes here.",
-            "instructions": "Deliverable instructions html goes here.",
-            "references": [
-              {
-                "name": "Reference Name Goes Here",
-                "link": "reference/url/goes/here",
-                "description": "Describe the reference here."
-              }
-            ],
-            "examples": [
-              {
-                "name": "Example Name Goes Here",
-                "link": "example/url/goes/here"
-              }
-            ]
+            "description": "<p>Propose a game concept. Describe gameplay, enumerate the UI components you'd expect the game to have, and select the components you intend to build (the number is up to you, based on your availability, ambition, component complexity, etc). Here's a high-level example (greater specificity is probably appropriate for your deliverable):<p><p><em>&ldquo;My game is a World-War I fighter plane side-scroller. Each game level includes a take-off, some mission objective(s) such as recon behind enemy lines, survival through the enemy defenses, and a safe and successful landing (or tragic death!). The player must manage ammunition, fuel and oil, successfully navigate obstacles, accomplish the mission, and stay alive.</em></p><p><em>UI components include: flight instruments (altimeter, compass, clock), Mission guide (time to target, target indicator, mission-objective status, distance from home), a threat indicator, supply summary (ammunition, bombs, and fuel remaining), action bar (takeoff, land, fire machine gun, drop bomb, take picture), and mechanical status (how shot-up am I?).</em></p><p><em>I intent to build the flight instruments, the mission guide, and the action bar.</em>&rdquo;</p>",
+            "instructions": "<p>Create and upload an HTML document that describes the game as detailed above. Include sketches, mockups, etc. as you see fit.<p>"
           }
         ]
       },
@@ -585,44 +563,40 @@
       {
         "slug": "layout-framework-implementation",
         "name": "Layout Framework Implementation",
-        "hidden": true,
-        "start": "2020-01-01",
-        "end": "2020-01-01",
-        "description": "Build a static site using a layout framework such as Bootstrap or Foundation.",
+        "hidden": false,
+        "start": "2020-03-22",
+        "end": "2020-04-23",
+        "description": "<p><strong><em>Choose this project OR the Game Interface project &mdash; not both!</em></strong></p><p>Build a static site using a layout framework such as Bootstrap, Foundation, or UI Kit.</p><p>It's fairly rare that websites are developed entirely from scratch. In many (if not most) cases, a frame-work of some sort is leveraged. Frameworks can provide a number of advantages, including:</p><ul><li>Faster development turnaround</li><li>More consistent architecture</li><li>Standarized and well-tested design-patterns</li><li>Continuity/consistency of visual, structural, interactive elements</li></ul><p>They also, however, come with a price: developers must understand and apply the framework correctly, or risk creating a frankenstein that is difficult to modify and troubleshoot.</p><p>This project aims to put you in an all-too-typical web-development situation: building a site with a framework you're not yet familar with. Which really means this is as much a <em>research</em> project as it is a <em>development</em> project. Your objective is to create a <strong>simple</strong> static website with the content of your choice, but leveraging a third-party front-end framework for layout, responsiveness, and UI conventions.</p>",
         "references": [
-          {
-            "name": "Sample deliverable.json",
-            "link": "reference/url/goes/here",
-            "description": "Describe the reference here."
-          }
+          
         ],
         "examples": [
-          {
-            "name": "Sample deliverable.json",
-            "link": "link/goes/here"
-          }
         ],
         "deliverables": [
           {
-            "slug": "deliverable-slug-goes-here",
-            "name": "Deliverable Name Goes Here",
-            "hidden": true,
-            "assigned": "2020-01-01",
-            "due": "2020-02-01",
+            "slug": "proposal",
+            "name": "Proposal",
+            "hidden": false,
+            "assigned": "2020-03-22",
+            "due": "2020-03-27",
             "file": "index.html",
-            "description": "Deliverable description html goes here.",
-            "instructions": "Deliverable instructions html goes here.",
+            "description": "<p>Create a proposal for the site you want to build. It could be a redesign of an existing website, a simple site for an organization you're involved with (a band, a club, etc), a site for a hypothetical business, a political manifesto... whatever!</p><p>But &mdash; keep it simple. Make sure it's something for which you have ready (and legal) access to content without significant effort, that it does not require more than 3-8 pages total, and that it is an appropriate fit for a framework-style approach. In other words, you want to make sure it gives you an opportunity to actually try out some of what a layout framework has to offer.</p><p>This is very open-ended, but intentionally so, in order to give you an opportunity to find ownership and motivation. Just remember that the objective as <strong><em>I</em></strong> see it is not to create a super meaningful website &mdash; it's to give you an excuse to get your hands dirty with a framework. If the content is banal... fine!</p>",
+            "instructions": "<p>Post an HTML document describing your proposed site, and indicating your selected framework. <strong>Spend time reading through the framework documentation!</strong></p>",
             "references": [
               {
-                "name": "Reference Name Goes Here",
-                "link": "reference/url/goes/here",
-                "description": "Describe the reference here."
-              }
-            ],
-            "examples": [
+                "name": "Bootstrap",
+                "link": "https://getbootstrap.com/",
+                "description": "The Bootstrap framework"
+              },
               {
-                "name": "Example Name Goes Here",
-                "link": "example/url/goes/here"
+                "name": "Foundation",
+                "link": "https://get.foundation/",
+                "description": "The Foundation framework"
+              },
+              {
+                "name": "UI Kit",
+                "link": "https://getuikit.com/",
+                "description": "The UI Kit framework"
               }
             ]
           }
