@@ -608,7 +608,7 @@
             "due": "2020-04-03",
             "file": "index.html",
             "description": "<p>Create a wireframe or mockups. This can take whatever format you choose (pencil sketches, Sketch/XD, PDF, html). The objective is to <em>think through the macro-scale layout so you know what each block of information is, and where it goes.<em> A good way to start is to take each 'block' of information on a page, then list them ordered by communication priority. This list probably comes pretty close to resembling your mobile layout, in terms of how the blocks are stacked. Then it's a matter of deciding iuf/how these same blocks get re-grouped at larger sizes. With that determined, you can start roughing in actual content to find out how much room each block needs.</p><p><strong>It's possible that you want to take a 'design in the browser' approach instead.</strong> If so, this deliverable should be your initial draft of the layout, and should absolutely be using the layout-tools and/or grid-system of your chosen framework in order to create 'containers' for what will be the eventual page content.</p>",
-            "instructions": "<p>Post as necessary to display your work.</p>",
+            "instructions": "<p>Post as necessary to display your work.</p>"
           },
           {
             "slug": "progress-1",
@@ -618,7 +618,7 @@
             "due": "2020-04-10",
             "file": "index.html",
             "description": "<p>You should be building things by now.</p>",
-            "instructions": "<p>Post to display progress.</p>",
+            "instructions": "<p>Post to display progress.</p>"
           },
           {
             "slug": "progress-2",
@@ -628,7 +628,7 @@
             "due": "2020-04-17",
             "file": "index.html",
             "description": "<p>You should REALLY by building things by now!</p>",
-            "instructions": "<p>Post to display progress.</p>",
+            "instructions": "<p>Post to display progress.</p>"
           },
           {
             "slug": "final",
@@ -638,7 +638,7 @@
             "due": "2020-04-24",
             "file": "index.html",
             "description": "<p>Holy crap, the final product is already due!</p>",
-            "instructions": "<p>Post the final work.</p>",
+            "instructions": "<p>Post the final work.</p>"
           }
         ]
       },
